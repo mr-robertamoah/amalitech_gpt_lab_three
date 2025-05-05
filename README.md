@@ -4,7 +4,7 @@ This project contains SQL scripts, their corresponding result screenshots, and a
 
 ## SQL Scripts and Screenshots
 
-Each SQL script in the `sql` directory has a corresponding PNG file in the `screenshots` directory. The PNG files show the results of running each SQL script. The files are matched by name, with the only difference being the file extension.
+Each SQL script in the `sql` directory has a corresponding PNG file in the `sql/screenshots` directory. The PNG files show the results of running each SQL script. The files are matched by name, with the only difference being the file extension.
 
 The following SQL scripts and their corresponding screenshots are included:
 
@@ -28,4 +28,6 @@ There are two additional images in the `screenshots` directory:
 
 The `api` directory contains documentation on how to use a NestJS API created to connect to the AWS RDS instance. This API provides various endpoints to retrieve reports from the MySQL database.
 
+Additionally, the `api/screenshots` directory contains images showing the output of each API endpoint.
+  
 For detailed information on the API usage, endpoints, environment variables, and running instructions, please refer to the `api/README.md` file.
